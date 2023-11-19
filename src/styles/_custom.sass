@@ -2,14 +2,8 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-
+    top: 15%
+    right: 55%
 
 @keyframes float1
   0%
@@ -17,3 +11,52 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal__row .banner-principal__img
+  width: 400px
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.svg") !important
+
+.cajon.color-primario
+  background-color: #EFEAF7
+.cajon.color-primario:before
+  background-color: #8F52F5
+
+.cajon.color-secundario
+  background-color: #F2EEE1
+.cajon.color-secundario:before
+  background-color: #FFB206
+
+.tarjeta--azul
+  background-color: #F6F6F6
+
+.lista-ol--separador li, .lista-ul--separador li
+  border-bottom: dashed 1px #b0c0d2
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #E01650
+
+.slyder-a__bullets__item
+  background-color: #F3DEAE
+.slyder-a__bullets__item--active
+  background-color: #FFB206
+
+.tabs-a__tab
+  background-color: #E8E8E8
+  height: 100%
+
+.tarjeta.color-primario
+  background-color: #FFF4D9
+  p
+    color: $color-sistema-texto
+
+.bg
+  &-1
+    background-color: #F8F2E2
+  &-c2
+    background-color: #F6F6F6
+    border-radius: 25px
+    transition: all 0.5s ease
+  &-c2:hover
+    background-color: #F8BA31

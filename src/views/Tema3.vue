@@ -154,7 +154,7 @@
     p(data-aos="fade-right") Tanto los IDS como los IPS trabajan de manera conjunta, conformando una segunda línea de seguridad perimetral, complementando así las acciones y funciones de un firewall.
     p.mb-5(data-aos="fade-right") #[b Dentro de las características más relevantes de los OPS se presentan las siguientes:]
     figure(data-aos="fade-left")
-      img(src='@/assets/curso/tema3/img9.png', style="width: 1000px" ,alt='1 Complementa a los IDS, identificando y bloqueando conexiones con tráfico sospechoso. 2 Permite descartar paquetes sospechosos. 3 Permite bloquear direcciones sospechosas.').m-auto
+      img(src='@/assets/curso/tema3/img3.jpg', style="width: 1000px" ,alt='1 Complementa a los IDS, identificando y bloqueando conexiones con tráfico sospechoso. 2 Permite descartar paquetes sospechosos. 3 Permite bloquear direcciones sospechosas.').m-auto
 
 </template>
 

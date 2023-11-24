@@ -3,9 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
+    p.mb-5 La aplicación de estrategias de ciberseguridad implica el uso de medidas y procedimientos para proteger sistemas, redes y datos contra amenazas cibernéticas, como ataques de hackers, malware y brechas de seguridad. Estas estrategias incluyen políticas, tecnologías y prácticas para prevenir, detectar y responder a amenazas cibernéticas, asegurando así la integridad, confidencialidad y disponibilidad de la información digital.
     .row.justify-content-center
       .col-lg-10.mb-5
         figure

@@ -22,7 +22,7 @@
                   h3.text-white.mb-1 #[b Cifrado]
                   p.text-white.text-small.mb-0 Para profundizar en los aspectos conceptuales, operativos y funcionales del “cifrado”, correspondiente a este componente formativo, estudie atentamente  el contenido.
                 .col-sm-auto
-                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/Anexo_1_Cifrado.pdf')" target="_blank")
                     span(style="color: #000 !important") Descargar
                     i.fas.fa-file-download(style="color: #000 !important")
 

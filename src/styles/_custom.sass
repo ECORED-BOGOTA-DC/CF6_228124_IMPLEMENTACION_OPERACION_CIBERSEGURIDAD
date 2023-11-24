@@ -117,6 +117,16 @@
   p
     color: #fff !important
 
+.tarjeta.color-primario2
+  background-color: #FFB207
+  p
+    color: $color-sistema-texto !important
+
+.tarjeta.color-primario3
+  background-color: #92A0A6
+  p
+    color: $color-sistema-texto !important
+
 .tabs-b__tab
   background-color: #DCD5E6
 
@@ -126,6 +136,18 @@
 .tarjeta.color-primario1
   background-color: #8c38ba
   background-image: linear-gradient(180deg, #8c38ba 0%, #500c75 100%)
+
+.tarjeta-numerada__numero
+  width: 40px
+  height: 40px
+  align-items: center
+  left: -3px
+
+.tarjeta-numerada
+  height: 100%
+
+.banner-interno__titulo__icono i
+  color: $color-primario !important
 
 .bg
   &-1
@@ -138,3 +160,20 @@
     background-color: #F8BA31
   &-c3
     background-color: #F6F6F6
+  &-c4
+    position: relative
+    top: -80px
+    margin-bottom: -80px
+    border-radius: 25px
+    background-color: #dedede
+    background-image: linear-gradient(180deg, #dedede 0%, #ffffff 46%, #dedede 100%)
+    @media screen and ( max-width: $bp-max-lg )
+      top: 0px
+      margin-bottom: 0px
+  &-c5
+    background-color: #FAFAFA
+    margin-inline: -3.2rem !important
+
+.txt
+  &-c1
+    text-align: left

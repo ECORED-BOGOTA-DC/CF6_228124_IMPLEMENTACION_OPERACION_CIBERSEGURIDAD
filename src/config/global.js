@@ -245,32 +245,121 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Dispositivos móviles',
+      referencia:
+        'Organización Internacional de Normalización. (2013). <i>Seguridad de la información, ciberseguridad y protección de la privacidad</i>. ISO 27001.',
+      tipo: 'Norma técnica',
+      link: 'https://www.iso.org/standard/54534.html',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Guía NIST-SP800-114',
+      referencia: 'NIST. (2021). <i>Cybersecurity framework</i>. NIST.',
+      tipo: 'Página web',
+      link: 'https://www.nist.gov/cyberframework',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Auditoría',
+      significado:
+        'proceso mediante el cual se busca verificar o validar que se esté cumpliendo una condición o la aplicación de un control.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Control',
+      significado:
+        'mecanismo de tipo lógico o técnico con el cual se busca regular o establecer restricciones de alguna acción.',
+    },
+    {
+      termino: '<em>Framework</em>',
+      significado:
+        'es un marco de trabajo que provee los componentes y condiciones necesarias para su aplicación.',
+    },
+    {
+      termino: 'Intrusión',
+      significado:
+        'acceso no autorizado a un sistema o activo de información sin consentimiento del propietario.',
+    },
+    {
+      termino: 'Log',
+      significado:
+        'registro secuencial sobre eventos presentados en un sistema de información.',
+    },
+    {
+      termino: '<em>Malware</em>',
+      significado:
+        'programa dañino que se instala en dispositivos y que puede generar daños o pérdida de información.',
+    },
+    {
+      termino: 'Riesgo',
+      significado:
+        'es la probabilidad de que una amenaza se materialice generando alguna consecuencia negativa.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Audea. (2010). <i>Fuga de información ¿Qué es y cómo se puede prevenir?</i> Audea. ',
+      link:
+        'https://www.audea.com/fuga-de-informacion-que-es-y-como-se-puede-prevenir/ ',
+    },
+    {
+      referencia: 'Cisco. (2021). <i>¿Qué es un firewall?</i> Cisco. ',
+      link:
+        'https://www.cisco.com/c/es_mx/products/security/firewalls/what-is-a-firewall.html ',
+    },
+    {
+      referencia:
+        'FORTINET. (2021). <i>Administración unificada de amenazas</i>. FORTINET. ',
+      link: 'https://www.fortinet.com/lat/products/smallbusiness/utm',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Ciberseguridad. (2017). <i>Control de acceso. Políticas de seguridad para la pyme</i>. Incibe',
+      link:
+        'https://www.incibe.es/sites/default/files/contenidos/politicas/documentos/control-de-acceso.pdf',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Ciberseguridad. (2020). <i>¿Qué son y para qué sirven los SIEM, IDS e IPS?</i> Incibe. ',
+      link:
+        'https://www.incibe.es/protege-tu-empresa/blog/son-y-sirven-los-siem-ids-e-ips',
+    },
+    {
+      referencia:
+        'Organización Internacional de Normalización. (2013). <i>Information technology — Security techniques — Information security management systems — Requirements</i>. ISO 27001. ',
+      link: 'https://www.iso.org/standard/54534.html',
+    },
+    {
+      referencia:
+        'LISA Institute. (2019). <i>¿Qué son las infraestructuras críticas?</i> LISA Institute. ',
+      link:
+        'https://www.lisainstitute.com/blogs/blog/infraestructuras-criticas',
+    },
+    {
+      referencia:
+        'Malwarebytes (2021). <i>Todo acerca del malware</i>. Malwarebytes. ',
+      link: 'https://es.malwarebytes.com/malware/#what-is-malware',
+    },
+    {
+      referencia: 'NIST. (2021). <i>Marco de ciberseguridad</i>. NIST. ',
+      link: 'https://www.nist.gov/cyberframework',
+    },
+    {
+      referencia:
+        'SeguriLatam. (2020). <i>Seguridad en dispositivos móviles: ¿cuáles son las ciberamenazas más peligrosas?</i> SeguriLatam. ',
+      link:
+        'https://www.segurilatam.com/actualidad/ciberseguridad-seguridad-en-dispositivos-moviles-cuales-son-las-ciberamenazas-mas-peligrosas_20201005.html',
+    },
+    {
+      referencia:
+        'Server World. (2020). <i>Apache2: configure SSL/TLS</i>. Server World. ',
+      link: 'https://www.server-world.info/en/note?os=Ubuntu_20.04&p=httpd&f=3',
+    },
+    {
+      referencia:
+        'Welivesecurity. (2021). <i>Todo sobre cifrado: qué es y cuándo deberías usarlo</i>. Welivesecurity. ',
+      link:
+        'https://www.welivesecurity.com/la-es/2016/02/09/todo-sobre-cifrado-cuando-usarlo/',
     },
   ],
   creditos: [
@@ -278,14 +367,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del equipo',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Líder del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -293,9 +383,38 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Hernando José Peña Hidalgo',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseñador instruccional',
+          centro: 'Centro Agropecuario La Granja - Regional Tolima',
+        },
+        {
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Revisora metodológica y pedagógica',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Julia Isabel Roberto',
+          cargo: 'Diseñadora y evaluadora instruccional',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Nelly Parra Guarín',
+          cargo: 'Adecuadora instruccional',
+          centro:
+            'Centro de gestión de mercados, Logística y Tecnologías de la información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Asesora metodológica',
+          centro:
+            'Centro de gestión de mercados, Logística y Tecnologías de la información - Regional Distrito Capital',
         },
       ],
     },
@@ -303,14 +422,16 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'Antonio Vecino Valero',
+          cargo: 'Diseño web',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          nombre: 'Jhon Jairo Urueta Alvarez',
+          cargo: 'Desarrollo Fullstack',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Nombre',

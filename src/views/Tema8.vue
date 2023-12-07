@@ -47,7 +47,7 @@
                       img(src='@/assets/curso/tema8/img4.svg', style="width: 350px" ,alt='').m-auto
                   .col-lg-8
                     p.txt-c1 #[b Acceso a sitios peligrosos]
-                    p.txt-c1.mb-0 Pone en riesgo la información gestionada desde el dispositivo en el momento que este sea infectado, por ejemplo, con un ransomware. También el uso de aplicaciones no autorizadas arriesga la información, ya que posibilita el intercambio, envío o daño de información, por ejemplo, aplicaciones de información compartida como en Internet como Dropbox, Google Drive, Onedrive, Wetransfer.
+                    p.txt-c1.mb-0 Pone en riesgo la información gestionada desde el dispositivo en el momento que este sea infectado, por ejemplo, con un #[i ransomware]. También el uso de aplicaciones no autorizadas arriesga la información, ya que posibilita el intercambio, envío o daño de información, por ejemplo, aplicaciones de información compartida como en Internet como Dropbox, Google Drive, Onedrive, Wetransfer.
                 .row.align-items-center
                   .col-lg-8.mb-4.mb-lg-0
                     p #[b Tratamiento indebido de información]
@@ -113,7 +113,7 @@
           li.d-flex
             i.fas.fa-check-circle(style="color: #8F52F5")
             |
-            p.mb-0 Instalación, configuración y actualización de firewall.
+            p.mb-0 Instalación, configuración y actualización de #[i firewall].
           li.d-flex
             i.fas.fa-check-circle(style="color: #8F52F5")
             |
@@ -132,19 +132,16 @@
       .col-lg-8(data-aos="fade-left")
         p A las organizaciones en el marco del tratamiento de los riesgos por fuga o pérdida de información, y con mayor razón si se trata de organizaciones grandes  o con gran nivel de administración de información se les recomienda el manejo de sistemas de prevención de pérdida de datos o DLP, así como la aplicación de controles orientados a la gestión del ciclo de vida de la información o ILM (Information Lifecycle Management).
         .cajon.color-primario.p-4
-          p.mb-0 Estas son algunas recomendaciones adicionales para las organizaciones, referent4e al  tratamiento y control de la fuga o robo de información:
+          p.mb-0 Estas son algunas recomendaciones adicionales para las organizaciones, referente al  tratamiento y control de la fuga o robo de información:
     ImagenInfografica.color-acento-contenido(data-aos="fade-right")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema8/img12.svg', alt='')
       .tarjeta.color-primario1.shadow-sm.p-3(x="20.5%" y="5%" numero="+")
-        p #[b De dispositivos]
         p.mb-0 Desde luego, toda organización ha de adoptar herramientas de control de los dispositivos externos de almacenamiento, removibles y en línea, para evitar fugas de información.
       .tarjeta.color-primario2.shadow-sm.p-3(x="53.5%" y="8%" numero="+")
-        p #[b Oganizativas]
         p.mb-0 Estos controles se relacionan con «la forma» en que se maneja o se trata la información. Por lo que se recomienda prevenir malas prácticas como compartir contraseñas o activos confidenciales, o hacer uso de contraseñas que son de conocimiento general. Esto conlleva a que se cuente con políticas de seguridad apoyadas en acciones de concienciación a todo el personal.
       .tarjeta.color-primario3.shadow-sm.p-3(x="89.5%" y="8%" numero="+")
-        p #[b Jurídicas]
         p.mb-0 Todos los empleados  y proveedores deben cumplir con las políticas de seguridad; las cuales, en el caso de proveedores,  se deben comunicar y aceptar mediante la firma de acuerdos de confidencialidad y de nivel de servicio (SLA).
 
 </template>

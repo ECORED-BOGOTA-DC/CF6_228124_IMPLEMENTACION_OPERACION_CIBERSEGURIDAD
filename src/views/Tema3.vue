@@ -27,7 +27,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               p #[b Enlace a la red interna]
-              p Los IDS para realizar su función de monitoreo deben permanecer enlazados a la red interna, y desde su posición analizar el tráfico confrontando comportamientos con bases de datos de diferentes fuentes para así poder emitir alertas.
+              p Los IDS para realizar su función de monitoreo deben permanecer enlazados a la red interna, y desde su posición analizar el tráfico, confrontando comportamientos con bases de datos de diferentes fuentes para así poder emitir alertas.
               .row
                 .col-auto
                   a.boton.color-secundario.indicador__container(@click="modal1 = true")
@@ -60,6 +60,12 @@
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               p #[b IDS más reconocidos]
+              p.mb-0 Zeek: #[a(href="https://zeek.org/" target="_blank") https://zeek.org/]
+              p.mb-0 OSSEC: #[a(href="https://www.ossec.net/") https://www.ossec.net/]
+              p.mb-0 Snort: #[a(href="https://www.snort.org/") https://www.snort.org/]
+              p.mb-0 Suricata: #[a(href="https://suricata.io/") https://suricata.io/]
+              p Security Onion: #[a(href="https://securityonionsolutions.com/") https://securityonionsolutions.com/]
+              p.mb-0 Entre otros.
             .col-lg-5
               figure
                 img(src='@/assets/curso/tema3/img5.png', style="width: 450px" ,alt='').m-auto
@@ -78,7 +84,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               p #[b Operación desde la red interna]
-              p Los IPS por tener capacidad de denegar paquetes, en caso de corresponder a un comportamiento no autorizado, deben operar desde la red interna, por lo general después del firewall de seguridad perimetral.
+              p Los IPS, por tener capacidad de denegar paquetes, en caso de corresponder a un comportamiento no autorizado, deben operar desde la red interna, por lo general después del firewall de seguridad perimetral.
             .col-lg-5
               figure
                 img(src='@/assets/curso/tema3/img7.png', style="width: 450px" ,alt='').m-auto
@@ -97,7 +103,7 @@
         .col-auto
           figure
             img(src='@/assets/curso/tema3/img3.svg', style="width: 850px" ,alt='').m-auto
-    p(data-aos="fade-right") En la actualidad existen muchas soluciones de tipo UTM, que incorporar estos 2 tipos de soluciones dentro de sus herramientas permitiendo extender la cobertura y control del tráfico que circula en nuestra red.
+    p(data-aos="fade-right") En la actualidad existen muchas soluciones de tipo UTM, que incorporan estos 2 tipos de soluciones dentro de sus herramientas, permitiendo extender la cobertura y control del tráfico que circula en nuestra red.
     Separador
     #t_3_1
     .titulo-segundo.color-acento-contenido
@@ -107,7 +113,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img2.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Tanto los IDS como los IPS cuentan con una serie de características que permiten no solo identificarlos, sino que además, dan la opción de reconocer tareas y funcionalidades que cumplen. Dentro de las características más relevantes de los IDS se pueden enunciar las siguientes:
+        p.mb-0 Tanto los IDS como los IPS cuentan con una serie de características que permiten no solo identificarlos, sino que, además, dan la opción de reconocer tareas y funcionalidades que cumplen. Dentro de las características más relevantes de los IDS se pueden enunciar las siguientes:
     .row
       .col-12.bg-c3
         .row.align-items-center
@@ -151,7 +157,7 @@
     #t_3_2
     .titulo-segundo.color-acento-contenido
       h2 3.2 Características de los IPS
-    p(data-aos="fade-right") Tanto los IDS como los IPS trabajan de manera conjunta, conformando una segunda línea de seguridad perimetral, complementando así las acciones y funciones de un firewall.
+    p(data-aos="fade-right") Tanto los IDS como los IPS trabajan de manera conjunta, conformando una segunda línea de seguridad perimetral, complementando así las acciones y funciones de un #[i firewall].
     p.mb-5(data-aos="fade-right") #[b Dentro de las características más relevantes de los OPS se presentan las siguientes:]
     figure(data-aos="fade-left")
       img(src='@/assets/curso/tema3/img3.jpg', style="width: 1000px" ,alt='1 Complementa a los IDS, identificando y bloqueando conexiones con tráfico sospechoso. 2 Permite descartar paquetes sospechosos. 3 Permite bloquear direcciones sospechosas.').m-auto

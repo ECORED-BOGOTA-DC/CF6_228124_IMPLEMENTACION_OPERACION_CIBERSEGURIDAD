@@ -46,7 +46,7 @@
           li.d-flex
             i.fas.fa-check-circle(style="color: #8F52F5")
             |
-            p.mb-0 #[b La sección 5] trata sobre la protección de las computadoras personales (PC) BYOD, a través de métodos como la aplicación de actualizaciones de software, la instalación y configuración de software antivirus y firewalls personales.
+            p.mb-0 #[b La sección 5] trata sobre la protección de las computadoras personales (PC) BYOD, a través de métodos como la aplicación de actualizaciones de #[i software], la instalación y configuración de #[i software] antivirus y #[i firewalls] personales.
           li.d-flex
             i.fas.fa-check-circle(style="color: #8F52F5")
             |
@@ -87,7 +87,7 @@
             .tarjeta-numerada.color-acento-contenido.shadow.p-4
               .tarjeta-numerada__numero
                 .h2 4
-              p.mb-0 Proveer de herramientas actualizadas contra malware.
+              p.mb-0 Proveer de herramientas actualizadas contra #[i malware].
         .row
           .col-lg-6.mb-4.mb-lg-0
             .tarjeta-numerada.color-secundario.shadow.p-4

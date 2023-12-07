@@ -26,7 +26,7 @@
         .row
           .col-12.bg-1
             .p-4
-              p.mb-0 De acuerdo con el Instituto Nacional de Ciberseguridad de España un objetivo de este control es #[b “establecer quién, cómo y cuándo puede acceder a los activos de información de la empresa y registrar convenientemente dichos accesos” (Incibe, 2017)]; esto indica el establecimiento de controles que permitan una adecuada gestión de los permisos de los usuarios u otros sistemas de información para interactuar con los activos de una organización. En la siguiente figura, se pueden observar los pasos que se llevan a cabo para el control de gestión de acceso.
+              p.mb-0 De acuerdo con el Instituto Nacional de Ciberseguridad de España, un objetivo de este control es #[b “establecer quién, cómo y cuándo puede acceder a los activos de información de la empresa y registrar convenientemente dichos accesos” (Incibe, 2017)]; esto indica el establecimiento de controles que permitan una adecuada gestión de los permisos de los usuarios u otros sistemas de información para interactuar con los activos de una organización. En la siguiente figura, se pueden observar los pasos que se llevan a cabo para el control de gestión de acceso.
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
@@ -70,7 +70,7 @@
         figure
           img(src='@/assets/curso/tema1/img3.jpg', style="width: 450px" ,alt='').m-auto
       .col-lg-8(data-aos="fade-left")
-        p El control para la gestión de los accesos puede ser abordado desde diferentes frentes de gestión o con distintas técnicas de control. La aplicación de dichos controles de gestión de accesos es un factor de garantía de la seguridad de la información en la organización; pero no solo de esta sino, además, de los activos de información, las personas, la infraestructura, entre otros.
+        p El control para la gestión de los accesos puede ser abordado desde diferentes frentes de gestión o con distintas técnicas de control. La aplicación de dichos controles de gestión de accesos es un factor de garantía de la seguridad de la información en la organización; pero no solo de esta, sino, además, de los activos de información, las personas, la infraestructura, entre otros.
         p.mb-0 Identifique, a continuación, algunos de las más comunes y funcionales controles:
     .tarjeta.tarjeta--azul.mb-5(data-aos="fade-down")
       .p-4
@@ -190,7 +190,7 @@
           img(src='@/assets/curso/tema1/img6.svg', style="width: 90px" ,alt='').m-auto
       .col
         p La implementación de los controles para la gestión del acceso debe contemplar ciertas condiciones que eleven la complejidad y dificulten el acceso no autorizado a los activos de información de la organización.
-        p.mb-0 #[b Algunos ejemplos, se presentan a continuación:]
+        p.mb-0 #[b Algunos ejemplos se presentan a continuación:]
     .row.align-items-center
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         TabsA.color-acento-contenido

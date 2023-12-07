@@ -24,7 +24,7 @@
         .p-4
           figure.mb-3
             img(src='@/assets/curso/tema9/img2.svg', style="width: 70px" ,alt='')
-          p.mb-4 #[b Smartphone]
+          p.mb-4 #[b #[i Smartphone]]
           p.mb-0 Teléfono inteligente que cuenta con funciones avanzadas para utilizar aplicaciones y gestionar información, estos dispositivos están compuestos por un sistema operativo, aplicaciones e información.
       .col-8.col-lg.m-2.bg-c2.shadow-sm
         .p-4
@@ -53,7 +53,7 @@
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         TabsA.color-acento-contenido
-          .tarjeta.color-primario.p-4(titulo="Aplicaciones maliciosas")
+          .tarjeta.color-primario.p-4(titulo="Aplicaciones<br>maliciosas")
             .row
               .col-12
                 p.mb-0 Mediante las cuales se pueden instalar app maliciosas que pueden presentar algún tipo de filtración de dato o daño, tanto en los dispositivos como en la información.
@@ -61,14 +61,14 @@
             .row
               .col-12
                 p.mb-0 Algunas marcas o modelos no cuentan con los componentes necesarios para un sistema seguro, lo que se considera una debilidad que puede ser aprovechada por terceros para robar información.
-          .tarjeta.color-primario.p-4(titulo="Phishing")
+          .tarjeta.color-primario.p-4(titulo="<i>Phishing</i>")
             .row
               .col-12
                 p.mb-0 Esta es una de las vulnerabilidades más comunes, con la cual buscan capturar usuarios incautos para robar información, cuentas, entre otras o acceder a información de sistemas bancarios o de redes sociales, para luego pedir algún rescate.
           .tarjeta.color-primario.p-4(titulo="Ataques basados<br>en la red")
             .row
               .col-12
-                p.mb-0 Problemas de malware en dispositivos, los cuales pueden tomar el control y realizar acciones no requeridas, por ejemplo, envío masivo de mensajes a los contactos o publicación autónoma en las redes sociales.
+                p.mb-0 Problemas de #[i malware] en dispositivos, los cuales pueden tomar el control y realizar acciones no requeridas, por ejemplo, envío masivo de mensajes a los contactos o publicación autónoma en las redes sociales.
           .tarjeta.color-primario.p-4(titulo="Ataques<br><i>Man-in-the-Middle</i>")
             .row
               .col-12
@@ -77,7 +77,7 @@
         figure
           img(src='@/assets/curso/tema9/img3.jpg', style="width: 450px" ,alt='').m-auto
     .cajon.color-primario.p-4
-      p.mb-0 Adicional a estas amenazas se pueden sumar las causadas por pérdida o robo de dispositivos, lo que estaría enlazado a la cantidad de información y contenido, y si ésta se encontraba cifrada o no.
+      p.mb-0 Adicional a estas amenazas se pueden sumar las causadas por pérdida o robo de dispositivos, lo que estaría enlazado a la cantidad de información y contenido, y si esta se encontraba cifrada o no.
     Separador
     #t_9_2
     .titulo-segundo.color-acento-contenido

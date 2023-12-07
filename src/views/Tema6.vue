@@ -11,21 +11,18 @@
         figure
           img(src='@/assets/curso/tema6/img1.jpg', style="width: 450px" ,alt='').m-auto
       .col-lg-8(data-aos="fade-left")
-        p En ciertas ocasiones las soluciones no son suficientes para garantizar la seguridad de los activos de información de la organización; a pesar de todos los controles centralizados implementados aún existe un factor que puede ser el más vulnerable y es el factor humano.
-        p.mb-0 Pero ¿cuál o cuáles podrían ser las medidas apropiadas para superar la inseguridad digital causada por el personal de la organización? Revise una  solución:
+        p En ciertas ocasiones las soluciones no son suficientes para garantizar la seguridad de los activos de información de la organización; a pesar de todos los controles centralizados implementados, aún existe un factor que puede ser el más vulnerable y es el factor humano.
+        p.mb-0 Pero, ¿cuál o cuáles podrían ser las medidas apropiadas para superar la inseguridad digital causada por el personal de la organización? Revise una  solución:
     ImagenInfografica.color-acento-contenido(data-aos="fade-down")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/tema6/img2.jpg', alt='')
       .tarjeta.color-primario1.p-3(x="15%" y="98%" numero="1")
-        p #[b Personal  vulnerable]
         p.mb-0 El talento humano puede, de cierto modo, ser la puerta de entrada de los diferentes incidentes que pueden presentarse en la organización.
       .tarjeta.color-primario1.p-3(x="51%" y="98%" numero="2")
-        p #[b Soluciones adicionales]
         p.mb-0 Es justo allí donde se propone otro tipo de soluciones que permiten mejorar la seguridad de los dispositivos de una red.
       .tarjeta.color-primario1.p-3(x="86%" y="98%" numero="3")
-        p #[b Monitoreo de cambios en dispositivos]
-        p.mb-0 Se trata de los EDR (Endpoint Detection and Response), en español Detección y Respuesta de Endpoints, los cuales permiten monitorear permanentemente los cambios presentados en los dispositivos.
+        p.mb-0 Se trata de los EDR (Endpoint Detection and Response), en español Detección y Respuesta de #[i Endpoints], los cuales permiten monitorear permanentemente los cambios presentados en los dispositivos.
     Separador
     #t_6_1
     .titulo-segundo.color-acento-contenido
@@ -35,7 +32,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema6/img3.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Un EndPoint puede ser cualquier dispositivo que se encuentra conectado a la red informática de la organización, por ejemplo, computadores, portátiles, teléfonos, servidores, tablet, etc. La detección y respuesta de EndPoints son aquellas soluciones que permiten detectar y responder ante actividades sospechosas en un dispositivo, de acuerdo con su comportamiento, evitando su reproducción o réplica en otros dispositivos de la organización.
+        p.mb-0 Un Endpoint puede ser cualquier dispositivo que se encuentra conectado a la red informática de la organización, por ejemplo, computadores, portátiles, teléfonos, servidores, tablet, etc. La detección y respuesta de Endpoints son aquellas soluciones que permiten detectar y responder ante actividades sospechosas en un dispositivo, de acuerdo con su comportamiento, evitando su reproducción o réplica en otros dispositivos de la organización.
     .row.align-items-center
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -47,7 +44,7 @@
     Separador
     #t_6_2
     .titulo-segundo.color-acento-contenido
-      h2 6.2 Tipos de soluciones de seguridad para EndPoint
+      h2 6.2 Tipos de soluciones de seguridad para Endpoint
     .row.align-items-center.mb-5(data-aos="fade-left")
       .col-md-auto.mb-4.mb-md-0
         figure
@@ -62,7 +59,7 @@
             figure
               img(src='@/assets/curso/tema6/img5.jpg', style="width: 350px" ,alt='').m-auto
           .col-lg-8
-            p Este tipo de soluciones tiene como objetivo prevenir incidentes de seguridad en los dispositivos de la red por malware o cualquier otra vulnerabilidad, estas soluciones realizan la identificación a partir de los siguientes métodos:
+            p Este tipo de soluciones tiene como objetivo prevenir incidentes de seguridad en los dispositivos de la red por #[i malware] o cualquier otra vulnerabilidad, estas soluciones realizan la identificación a partir de los siguientes métodos:
             ul.lista-ul--separador
               li.d-flex
                 i.fas.fa-check-circle(style="color: #8F52F5")
@@ -75,11 +72,11 @@
               li.d-flex
                 i.fas.fa-check-circle(style="color: #8F52F5")
                 |
-                p.mb-0 Brindar soluciones sandbox para la ejecución de aplicaciones sospechosas.
+                p.mb-0 Brindar soluciones #[i sandbox] para la ejecución de aplicaciones sospechosas.
               li.d-flex
                 i.fas.fa-check-circle(style="color: #8F52F5")
                 |
-                p.mb-0 Utilizar análisis de comportamiento y machine learning para el reporte de actividad sospechosa.
+                p.mb-0 Utilizar análisis de comportamiento y #[i machine learning] para el reporte de actividad sospechosa.
       .py-4.py-md-5(titulo="Componentes de trabajo articulado" :icono="require('@/assets/curso/tema6/img2.svg')")
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0
@@ -128,7 +125,7 @@
           img(src='@/assets/curso/tema6/img5.svg', style="width: 120px" ,alt='').m-auto
       .col
         p Dentro de las características requeridas por una solución para la detección y respuesta de Endpoints es importante tener presente que deben abordarse los niveles de seguridad para este tipo de dispositivos.
-        p.mb-0 Acontinuación, se muestranlos niveles de seguridad para estos dispositivos. Haga la asimilación de ellos y procure llevar registro en su libreta personal de apuntes:
+        p.mb-0 A continuación, se muestran los niveles de seguridad para estos dispositivos. Haga la asimilación de ellos y procure llevar registro en su libreta personal de apuntes:
     .row.align-items-center
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         TabsA.color-acento-contenido

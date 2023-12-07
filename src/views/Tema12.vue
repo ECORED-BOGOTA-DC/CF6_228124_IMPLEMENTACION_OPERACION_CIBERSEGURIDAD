@@ -11,7 +11,7 @@
         figure
           img(src='@/assets/curso/tema12/img1.jpg', style="width: 450px" ,alt='').m-auto
       .col-lg-8(data-aos="fade-left")
-        p Para la gestión de las infraestructuras críticas, dada su complejidad, es importante contar con un marco que le permita realizar una mejora continua a su nivel de seguridad. El NIST (National Institute of Standards and Technology) en el año 2018 publicó el Framework for Improving Critical Infrastructure Cybersecurity, con el cual busca promover una adecuada gestión de los riesgos de la ciberseguridad en las organizaciones, adoptando las mejores prácticas de ISO, ITU, CIS, NIST, entre otros.
+        p Para la gestión de las infraestructuras críticas, dada su complejidad, es importante contar con un marco que le permita realizar una mejora continua a su nivel de seguridad. El NIST (National Institute of Standards and Technology) en el año 2018 publicó el #[i Framework for Improving Critical Infrastructure Cybersecurity], con el cual busca promover una adecuada gestión de los riesgos de la ciberseguridad en las organizaciones, adoptando las mejores prácticas de ISO, ITU, CIS, NIST, entre otros.
         .tarjeta.color-primario1.p-3
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-1

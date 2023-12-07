@@ -15,7 +15,7 @@
     .row.justify-content-center.mb-4
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          p.mb-0 #[b Figura 2.] Pasos de un control de gestión de acceso
+          p.mb-0 #[b Figura 1.] Funcionalidades de un SIEM
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema14/img1.png', style="width: 950px" ,alt='').m-auto
     p.mb-5(data-aos="fade-down") Descubra a continuación, los aspectos más importantes sobre la gestión de eventos de información de seguridad SIEM, sus esquemas lógicos, proveedores, entre otros.
@@ -32,7 +32,7 @@
                     .indicador--click(v-if="mostrarIndicador")
           .row(numero="2" titulo="Proveedores")
             .col-12
-              p En la actualidad hay muchos proveedores para soluciones SIEM y de correlación de eventos. En la imagen conozca una serie de los productos más representativos. Tenga en cuenta que existen soluciones tanto comerciales como de licencia de software libre.
+              p En la actualidad hay muchos proveedores para soluciones SIEM y de correlación de eventos. En la imagen conozca una serie de los productos más representativos. Tenga en cuenta que existen soluciones tanto comerciales como de licencia de #[i software libre].
               .row
                 .col-auto
                   a.boton.color-secundario.indicador__container(@click="modal2 = true")

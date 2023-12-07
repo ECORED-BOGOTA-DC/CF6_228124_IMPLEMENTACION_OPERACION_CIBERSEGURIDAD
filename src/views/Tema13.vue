@@ -11,7 +11,7 @@
         figure
           img(src='@/assets/curso/tema13/img1.svg', style="width: 250px" ,alt='').m-auto
       .col(data-aos="fade-left")
-        p Los sistemas para el correlacionamiento de logs y monitoreo de la actividad que pasa sobre las redes y dispositivos permiten una visión actualizada del nivel de seguridad de los controles implementados. Mantener una vista del estado de la seguridad de una red requiere de herramientas que permitan representar fácilmente la información consolidada.
+        p Los sistemas para el correlacionamiento de #[i logs] y monitoreo de la actividad que pasa sobre las redes y dispositivos permiten una visión actualizada del nivel de seguridad de los controles implementados. Mantener una vista del estado de la seguridad de una red requiere de herramientas que permitan representar fácilmente la información consolidada.
         .cajon.color-secundario.p-4
           p.mb-0 Tal información de monitoreo proviene de los activos de información y de los controles implementados, los cuales son los encargados de reportar las acciones realizadas.
     p.text-center.mb-5(data-aos="fade-up") #[b Estos son algunos conceptos y datos clave a tener en cuenta:]
@@ -48,7 +48,7 @@
                 img(src='@/assets/curso/tema13/img4.png', style="width: 450px" ,alt='').m-auto
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
-              p #[b Registro log]
+              p #[b Registro #[i log]]
               p Es un historial de registros de eventos ordenados en orden cronológico y almacenan la información de diferentes eventos como, por ejemplo, del sistema operativo, servicio o registro de autenticación desde una aplicación.
             .col-lg-5
               figure

@@ -18,10 +18,10 @@
             i.fas.fa-quote-right
             p.d-flex.justify-content-end #[b - (CISCO, 2021)]
     .cajon.color-secundario.p-4.mb-5(data-aos="fade-right")
-      p.mb-0 Explore el siguiente video, en el cual se presenta una amplia explicación sobre los firewalls, sus funcionalidades, tipos, características y otras generalidades que enriquecerán su conocimiento y formación.  #[b ¡Adelante!]
+      p.mb-0 Explore el siguiente video, en el cual se presenta una amplia explicación sobre los #[i firewalls], sus funcionalidades, tipos, características y otras generalidades que enriquecerán su conocimiento y formación.  #[b ¡Adelante!]
     figure(data-aos="fade-left")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/VIN7MJvfs34?si=JAFwysLmG0q-_A7D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>
 

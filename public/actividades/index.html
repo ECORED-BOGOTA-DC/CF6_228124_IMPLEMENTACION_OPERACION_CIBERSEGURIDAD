@@ -2,8 +2,8 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <!-- Creado con Storyline 360 - http://www.articulate.com  -->
-  <!-- version: 3.81.31200.0 -->
+  <!-- Creado con Storyline 360 x64 - http://www.articulate.com  -->
+  <!-- version: 3.82.31354.0 -->
   <title>Actividad did&#225;ctica</title>
   <meta http-equiv="x-ua-compatible" content="IE=edge"/>
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,shrink-to-fit=no,minimal-ui"/>
@@ -29,7 +29,7 @@
       captureRc: false,
       browserSize: 'optimal',
       bgColor: '#000000',
-      features: 'BackgroundAudioTriggers,ConnectionMessages,DropIn1,DropIn2,DropIn3,DropIn4,DropIn5,LayerPresentAsDialog,MultiLineTextEntry,MultipleQuizTracking,UpdatedThemeEditor',
+      features: 'BackgroundAudioTriggers,BackgroundAudioVolumeVariable,ConnectionMessages,DropIn1,DropIn2,DropIn3,DropIn4,DropIn5,LayerPresentAsDialog,MultiLineTextEntry,MultipleQuizTracking,PlayerTooltips,UpdatedThemeEditor',
       themeName: 'classic',
       preloaderColor: '#FFFFFF',
       suppressAnalytics: false,
@@ -37,8 +37,8 @@
       publishSource: 'storyline',
       aid: 'aid|5304b41d-7af7-4125-b8d1-83eb222823e2',
       cid: 'f3536a6d-5872-4a82-8f5c-3dd19a65b731',
-      playerVersion: '3.81.31200.0',
-      publishTimestamp: '2023-11-24T16:53:35.5638550Z',
+      playerVersion: '3.82.31354.0',
+      publishTimestamp: '2023-12-08T22:54:39.0063265Z',
       maxIosVideoElements: 10,
       connectionSettings: { mode: 'disabled' },
 
@@ -174,7 +174,7 @@
     transform: translateX(-50%);
   }
 
-  .is-portrait .warn-connection-content {
+  .view-mobile.is-portrait .warn-connection-content {
     transform: translate(-50%, calc(-100% - 15px));
   }
 
@@ -383,11 +383,14 @@
       }
 
       var isPortrait = document.body.classList.contains('is-portrait');
+      var isMobile = document.body.classList.contains('view-mobile');
       var warningEl = document.querySelector('.warn-connection-content');
 
-      if (isPortrait) {
+      if (isPortrait && isMobile) {
         var slide = document.querySelector('.primary-slide');
-        var slideRect = slide.getBoundingClientRect();
+        var slideRect = slide != null
+          ? slide.getBoundingClientRect()
+          : { top: window.innerHeight, left: 0, width: window.innerWidth };
 
         warningEl.style.top = `${slideRect.top}px`
         warningEl.style.left = `${slideRect.left + slideRect.width / 2}px`
@@ -413,7 +416,7 @@
     var warnDialogEl = document.querySelector('.warn-connection-dialog');
 
     function disableKeys() {
-      if (DS.views.nsStack.length === 1) {
+      if (DS.views && DS.views.nsStack && DS.views.nsStack.length === 1) {
         DS.views.nsStack[0].tabReachable = false
         DS.views.nsStack[0].updateTabIndex(true, true);
       }
@@ -426,8 +429,8 @@
     }
 
     function enableKeys() {
-      document.body.removeChild(accStyle);
-      if (DS.views.nsStack.length === 1 && DS.views.nsStack[0].name === '_frame') {
+      accStyle.remove();
+      if (DS.views && DS.views.nsStack && DS.views.nsStack.length === 1 && DS.views.nsStack[0].name === '_frame') {
         DS.views.nsStack[0].tabReachable = true;
         DS.views.nsStack[0].updateTabIndex();
       }

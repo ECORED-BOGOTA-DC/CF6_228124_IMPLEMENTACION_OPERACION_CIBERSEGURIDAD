@@ -11,7 +11,7 @@
         figure
           img(src='@/assets/curso/tema4/img1.jpg', style="width: 450px" ,alt='').m-auto
       .col-lg-8(data-aos="fade-left")
-        p En el reconocimiento de soluciones para la gestión de la seguridad en organizaciones hay que mencionar un tipo de producto que ha venido abarcando un amplio campo, por el hecho de integrar en un solo dispositivo soluciones como las vistas hasta ahora en este componente (firewalls, IDS, IPS).
+        p En el reconocimiento de soluciones para la gestión de la seguridad en organizaciones hay que mencionar un tipo de producto que ha venido abarcando un amplio campo, por el hecho de integrar en un solo dispositivo soluciones como las vistas hasta ahora en este componente (#[i firewalls], IDS, IPS).
         p.mb-0 Se trata del UTM (Unified Threat Management) o Gestión unificada de amenazas.  Con ellos están los XTM (Extensible UTM) o UTM Extendido, los cuales cubren las necesidades básicas más comunes, requeridas por las organizaciones en una única solución.
     p.mb-5(data-aos="fade-right") #[b Se presentan los aspectos generales más importantes y definitorios de estos productos (UTM/XTM):]
     .row
@@ -19,7 +19,7 @@
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="UTM, Gestión unificada de amenzas")
             .col-12
-              p.mb-0 Integra otras soluciones que requieren las empresas; “consolida múltiples funciones de seguridad y redes con un appliance unificado, que protege a las empresas y simplifica la infraestructura”, permitiendo encontrar en una sola solución herramientas como: firewall, IDS/IPS, antivirus, antimalware, filtrado antispam, filtrado web, acceso remoto seguro y una amplia variedad de reportes, simplificando la administración de este tipo de arquitecturas (FORTINET, 2021).
+              p.mb-0 Integra otras soluciones que requieren las empresas; “consolida múltiples funciones de seguridad y redes con un appliance unificado, que protege a las empresas y simplifica la infraestructura”, permitiendo encontrar en una sola solución herramientas como: #[i firewall], IDS/IPS, antivirus, antimalware, filtrado antispam, filtrado web, acceso remoto seguro y una amplia variedad de reportes, simplificando la administración de este tipo de arquitecturas (FORTINET, 2021).
           .row(numero="2" titulo="XTM, por la seguridad perimetral")
             .col-12
               p.mb-0 XTM o UTM extendido permite ampliar capacidades del UTM, agregando en una única solución herramientas de logging, protección de la reputación, correlación de eventos, herramientas para control de acceso a la red, capacidad de gestión de vulnerabilidades, así como capacidad de gestión del ancho de banda de red y control de tráfico, extendiendo así, las capacidades de administrar de una mejor manera la seguridad perimetral.

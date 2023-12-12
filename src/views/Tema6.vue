@@ -32,26 +32,26 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema6/img3.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Un Endpoint puede ser cualquier dispositivo que se encuentra conectado a la red informática de la organización, por ejemplo, computadores, portátiles, teléfonos, servidores, tablet, etc. La detección y respuesta de Endpoints son aquellas soluciones que permiten detectar y responder ante actividades sospechosas en un dispositivo, de acuerdo con su comportamiento, evitando su reproducción o réplica en otros dispositivos de la organización.
+        p.mb-0 Un #[i Endpoint] puede ser cualquier dispositivo que se encuentra conectado a la red informática de la organización, por ejemplo, computadores, portátiles, teléfonos, servidores, tablet, etc. La detección y respuesta de #[i Endpoints] son aquellas soluciones que permiten detectar y responder ante actividades sospechosas en un dispositivo, de acuerdo con su comportamiento, evitando su reproducción o réplica en otros dispositivos de la organización.
     .row.align-items-center
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema6/img4.jpg', style="width: 450px" ,alt='').m-auto
       .col-lg-8(data-aos="fade-left")
-        p Las EPP (Endpoint Protection Platform), aquellas plataformas de protección Endpoint, son las soluciones integradas de seguridad que, por lo general, están conformadas por antivirus y antimalware, entre otros, y que operan comparando archivos con bases, si su firma corresponde.
+        p Las EPP (#[i Endpoint] Protection Platform), aquellas plataformas de protección #[i Endpoint], son las soluciones integradas de seguridad que, por lo general, están conformadas por antivirus y antimalware, entre otros, y que operan comparando archivos con bases, si su firma corresponde.
         .cajon.color-primario.p-4
-          p.mb-0 Los XDR (Extended Detection and Response), Detección y Respuesta Extendidas, son una solución integral para la respuesta a incidentes, a partir de la recolección de información de los endpoint.
+          p.mb-0 Los XDR (Extended Detection and Response), Detección y Respuesta Extendidas, son una solución integral para la respuesta a incidentes, a partir de la recolección de información de los #[i Endpoint].
     Separador
     #t_6_2
     .titulo-segundo.color-acento-contenido
-      h2 6.2 Tipos de soluciones de seguridad para Endpoint
+      h2 6.2 Tipos de soluciones de seguridad para #[i Endpoint]
     .row.align-items-center.mb-5(data-aos="fade-left")
       .col-md-auto.mb-4.mb-md-0
         figure
           img(src='@/assets/curso/tema1/img6.svg', style="width: 90px" ,alt='').m-auto
       .col
-        p Las soluciones de seguridad Endpoint permiten mantener bajo permanente monitoreo y control los dispositivos administrados; lo cual favorece realizar acciones a partir de políticas establecidas por el administrador de seguridad. Dependiendo del tipo de Endpoint, estos pueden presentar alertas, reportar a consolas centrales e incluso, aislar un dispositivo de la red cuando se presente una advertencia catalogada como crítica.
-        p.mb-0 Entre las soluciones para la gestión de la seguridad de los Endpoint existen los siguientes tipos de solución:
+        p Las soluciones de seguridad #[i Endpoint] permiten mantener bajo permanente monitoreo y control los dispositivos administrados; lo cual favorece realizar acciones a partir de políticas establecidas por el administrador de seguridad. Dependiendo del tipo de #[i Endpoint], estos pueden presentar alertas, reportar a consolas centrales e incluso, aislar un dispositivo de la red cuando se presente una advertencia catalogada como crítica.
+        p.mb-0 Entre las soluciones para la gestión de la seguridad de los #[i Endpoint] existen los siguientes tipos de solución:
     TabsB.color-primario(data-aos="fade-left")
       .py-4.py-md-5(titulo="EPP" :icono="require('@/assets/curso/tema6/img1.svg')")
         .row.align-items-center
@@ -124,7 +124,7 @@
         figure
           img(src='@/assets/curso/tema6/img5.svg', style="width: 120px" ,alt='').m-auto
       .col
-        p Dentro de las características requeridas por una solución para la detección y respuesta de Endpoints es importante tener presente que deben abordarse los niveles de seguridad para este tipo de dispositivos.
+        p Dentro de las características requeridas por una solución para la detección y respuesta de #[i Endpoints] es importante tener presente que deben abordarse los niveles de seguridad para este tipo de dispositivos.
         p.mb-0 A continuación, se muestran los niveles de seguridad para estos dispositivos. Haga la asimilación de ellos y procure llevar registro en su libreta personal de apuntes:
     .row.align-items-center
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
@@ -144,11 +144,11 @@
           .tarjeta.color-primario.p-4(titulo="Informes e<br>integración")
             .row
               .col-12
-                p.mb-0 Debe brindar las capacidades de integrarse con soluciones y sistemas de monitoreo para una visualización general de los Endpoint de la organización.
+                p.mb-0 Debe brindar las capacidades de integrarse con soluciones y sistemas de monitoreo para una visualización general de los #[i Endpoint] de la organización.
           .tarjeta.color-primario.p-4(titulo="Arquitectura para<br>soluciones EDR")
             .row
               .col-12
-                p Observe y analice la arquitectura de seguridad sugerida para una solución de Endpoint.
+                p Observe y analice la arquitectura de seguridad sugerida para una solución de #[i Endpoint].
                 .row
                   .col-auto
                     a.boton.color-secundario.indicador__container(@click="modal1 = true")

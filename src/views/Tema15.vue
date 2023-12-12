@@ -16,7 +16,7 @@
     .row.justify-content-center.mb-4
       .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          p.mb-0 #[b Figura 2.] Fases para la gestión de parches y/o actualizaciones
+          p.mb-0 #[b Figura 3.] Fases para la gestión de parches y/o actualizaciones
         figure(data-aos="fade-right")
           img(src='@/assets/curso/tema15/img2.jpg', style="width: 650px" ,alt='').m-auto
     .row.align-items-center.mb-5

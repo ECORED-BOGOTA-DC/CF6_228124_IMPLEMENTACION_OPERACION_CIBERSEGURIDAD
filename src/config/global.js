@@ -280,7 +280,7 @@ export default {
         'acceso no autorizado a un sistema o activo de información sin consentimiento del propietario.',
     },
     {
-      termino: 'Log',
+      termino: '<em>Log</em>',
       significado:
         'registro secuencial sobre eventos presentados en un sistema de información.',
     },
@@ -434,7 +434,7 @@ export default {
         {
           nombre: 'Leyson Fabian Castaño Perez',
           cargo: 'Soporte organizacional',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
           nombre: 'Fabian Zarate',

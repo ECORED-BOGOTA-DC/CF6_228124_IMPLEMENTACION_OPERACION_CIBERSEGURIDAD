@@ -84,7 +84,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-5.mb-4.mb-lg-0
               p #[b Operación desde la red interna]
-              p Los IPS, por tener capacidad de denegar paquetes, en caso de corresponder a un comportamiento no autorizado, deben operar desde la red interna, por lo general después del firewall de seguridad perimetral.
+              p Los IPS, por tener capacidad de denegar paquetes, en caso de corresponder a un comportamiento no autorizado, deben operar desde la red interna, por lo general después del #[i firewall] de seguridad perimetral.
             .col-lg-5
               figure
                 img(src='@/assets/curso/tema3/img7.png', style="width: 450px" ,alt='').m-auto

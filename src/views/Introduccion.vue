@@ -13,7 +13,11 @@
         :style="{'background-image': `url(${require('@/assets/curso/intro/img1.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En el ejercicio de implementación de las estrategias de seguridad se debe partir de los objetivos de seguridad propuestos, así como de la declaración de privacidad, lo cual indica los controles que habrían de ser adoptados en la organización y con ello, garantizar la seguridad de la información.
+        p En el ejercicio de implementación de las estrategias de seguridad se debe partir de los objetivos de seguridad propuestos, así como de la declaración de privacidad, lo cual indica los controles que habrían de ser adoptados en la organización y con ello, garantizar la seguridad de la información.
+          |
+          br
+          br
+          p.mb-0 En este componente formativo podrá hacer un recorrido por algunas técnicas y herramientas, según el modelo y los estándares técnicos, que respondan de manera pertinente a la planificación en su organización, a la vez que profundiza en ellas.
     
 </template>
 

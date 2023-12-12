@@ -142,7 +142,7 @@
       .tarjeta.color-primario2.shadow-sm.p-3(x="53.5%" y="8%" numero="+")
         p.mb-0 Estos controles se relacionan con «la forma» en que se maneja o se trata la información. Por lo que se recomienda prevenir malas prácticas como compartir contraseñas o activos confidenciales, o hacer uso de contraseñas que son de conocimiento general. Esto conlleva a que se cuente con políticas de seguridad apoyadas en acciones de concienciación a todo el personal.
       .tarjeta.color-primario3.shadow-sm.p-3(x="89.5%" y="8%" numero="+")
-        p.mb-0 Todos los empleados  y proveedores deben cumplir con las políticas de seguridad; las cuales, en el caso de proveedores,  se deben comunicar y aceptar mediante la firma de acuerdos de confidencialidad y de nivel de servicio (SLA).
+        p.mb-0 Todos los empleados  y proveedores deben cumplir con las políticas de seguridad; las cuales, en el caso de proveedores,  se deben comunicar y aceptar mediante la firma de acuerdos de confidencialidad y de nivel de servicio (SLA) para proveedores.
 
 </template>
 

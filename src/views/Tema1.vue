@@ -13,7 +13,11 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/img1.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Es, en dichos mecanismos, en donde la gestión de acceso cobra un gran valor ya que permite controlar y fijar condiciones bajo los cuales un usuario pueda hacer uso de estos activos.
+            p La información se considera uno de los activos más importantes para las organizaciones, debe contar con mecanismos que garanticen que, únicamente las personas autorizadas puedan acceder y realizar las acciones pertinentes y asociadas a sus funciones.
+              |
+              br
+              br
+              p.mb-0 Es, en dichos mecanismos, en donde la gestión de acceso cobra un gran valor ya que permite controlar y fijar condiciones bajo los cuales un usuario pueda hacer uso de estos activos.
     Separador
     #t_1_1
     .titulo-segundo.color-acento-contenido

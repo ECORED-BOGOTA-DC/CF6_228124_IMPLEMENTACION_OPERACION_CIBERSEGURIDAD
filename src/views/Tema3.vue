@@ -148,7 +148,7 @@
                     .col-8
                       img(src='@/assets/curso/tema3/img8.svg' alt='AvatarTop')
                   p Requiere la actualización permanente de bases de datos con firmas actualizadas.
-                .tarjeta.color-acento-botones5.p-4
+                .tarjeta.color-acento-botones6.p-4
                   .row.justify-content-center.mb-3
                     .col-8
                       img(src='@/assets/curso/tema3/img9.svg' alt='AvatarTop')

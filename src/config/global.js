@@ -87,7 +87,7 @@ export default {
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo: 'Detección y respuesta para <i>endpoints</i> (EDR)',
+        titulo: 'Detección y respuesta para <i>Endpoints</i> (EDR)',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -97,7 +97,7 @@ export default {
           },
           {
             numero: '6.2',
-            titulo: 'Tipos de soluciones de seguridad para <i>endpoint</i>',
+            titulo: 'Tipos de soluciones de seguridad para <i>Endpoint</i>',
             hash: 't_6_2',
           },
           {

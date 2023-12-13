@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 6
-      h1 Detección y respuesta para #[i endpoints] (EDR)
+      h1 Detección y respuesta para #[i Endpoints] (EDR)
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -136,7 +136,7 @@
           .tarjeta.color-primario.p-4(titulo="Prevención")
             .row
               .col-12
-                p.mb-0 Prever soluciones de seguridad activa, que proteja contra cualquier amenaza que pueda afectar los activos de información administrados, a partir del monitoreo permanente y aprendizaje de los comportamientos identificados, facilitando la defensa ante cualquier comportamiento anómalo presentado desde el Endpoint.
+                p.mb-0 Prever soluciones de seguridad activa, que proteja contra cualquier amenaza que pueda afectar los activos de información administrados, a partir del monitoreo permanente y aprendizaje de los comportamientos identificados, facilitando la defensa ante cualquier comportamiento anómalo presentado desde el #[i Endpoint].
           .tarjeta.color-primario.p-4(titulo="Detección y<br>respuesta")
             .row
               .col-12

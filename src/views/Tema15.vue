@@ -18,7 +18,7 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.mb-0 #[b Figura 3.] Fases para la gestión de parches y/o actualizaciones
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema15/img2.jpg', style="width: 650px" ,alt='').m-auto
+          img(src='@/assets/curso/tema15/img2.jpg', style="width: 650px" ,alt='Imagen que relaciona las fases de la gestión de parches, las cuales son: - Despliegue - Identificación de activos y software base - Disponibilidad - Aplicabilidad - Adquisición - Validación').m-auto
     .row.align-items-center.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -57,8 +57,68 @@
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema15/img4.jpg', style="width: 380px" ,alt='').m-auto
-    figure(data-aos="fade-right")
-      img(src='@/assets/curso/tema15/img1.svg', style="width: 1050px" ,alt='').m-auto
+
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .row.justify-content-center.align-items-center
+          .col-10.col-lg-2
+            figure
+              img(src='@/assets/curso/tema15/img5.svg', alt='Imágen decorativa')
+          .col-lg-8
+            h4 Recomendaciones para la adecuada gestión de parches y actualizaciones:
+            ul.lista-ul--separador
+              li.d-flex
+                i.fas.fa-check-circle(style="color: #8F52F5")
+                | 
+                p.mb-0 Buscar información de actualizaciones y descargarlas de sitios oficiales.
+              li.d-flex
+                i.fas.fa-check-circle(style="color: #8F52F5")
+                |
+                p.mb-0 Validar las actualizaciones de manera previa y posterior, para verificación de funcionalidad de los sistemas.
+              li.d-flex
+                i.fas.fa-check-circle(style="color: #8F52F5")
+                |
+                p.mb-0 Preferiblemente, realizar la instalación en ambiente de pruebas y posterior en producción.
+              li.d-flex
+                i.fas.fa-check-circle(style="color: #8F52F5")
+                |
+                p.mb-0 Siempre, mantener las actualizaciones al día de sus sistemas, a excepción de las documentadas por requerimientos técnicos o compatibilidades.
+
+          .col-10.col-lg-2
+            figure
+              img(src='@/assets/curso/tema15/img6.svg', alt='Imágen decorativa')
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .row.justify-content-center.align-items-center
+          .col-10.col-lg-2
+            figure
+              img(src='@/assets/curso/tema15/img7.svg', alt='Imágen decorativa')
+          .col-lg-8
+            h4 Recomendaciones para la adecuada gestión de parches y actualizaciones:
+            ul.lista-ul--separador
+              li.d-flex
+                i.fas.fa-check-circle(style="color: #DE9F11")
+                | 
+                p.mb-0 Mantener los sistemas operativos, sistemas de información y aplicaciones de uso diario, actualizadas.
+              li.d-flex
+                i.fas.fa-check-circle(style="color: #DE9F11")
+                |
+                p.mb-0 Implemente soluciones para la automatización de actualizaciones generales como, por ejemplo, WSUS para sistemas Microsoft.
+              li.d-flex
+                i.fas.fa-check-circle(style="color: #DE9F11")
+                |
+                p.mb-0 Establezca horarios de actualizaciones automáticas que no afecten el desarrollo de las actividades laborales.
+
+          .col-10.col-lg-2
+            figure
+              img(src='@/assets/curso/tema15/img8.svg', alt='Imágen decorativa')
+
+
+
+
+
 
 </template>
 

@@ -17,7 +17,8 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.mb-0 #[b Figura 2.] Funcionalidades de un SIEM
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema14/img1.png', style="width: 950px" ,alt='').m-auto
+          img(src='@/assets/curso/tema14/img1.png', style="width: 950px" ,alt='Imagen que muestra el diagrama de las funcionalidades de un SIEM, el cual consta de: - Compliance - Analytics - Mobile protection - Threat protection - Management - Data protection - Endpoint protection - Network protection').m-auto
+
     p.mb-5(data-aos="fade-down") Descubra a continuación, los aspectos más importantes sobre la gestión de eventos de información de seguridad SIEM, sus esquemas lógicos, proveedores, entre otros.
     .row.align-items-center
       .col-lg-9.mb-4.mb-lg-0(data-aos="fade-right")
@@ -45,12 +46,12 @@
       .row.justify-content-center
         .col-auto
           figure
-            img(src='@/assets/curso/tema14/img2.svg', style="width: 600px" ,alt='').m-auto
+            img(src='@/assets/curso/tema14/img2.svg', style="width: 600px" ,alt='Imagen que muestra un esquema lógico de un SIEM, el cual contiene: 1. Inputs - datos de eventos y datos contexto 2. Outputs - análisis, informes y monitorización').m-auto
     ModalA(:abrir-modal.sync="modal2")
       .row.justify-content-center
         .col-auto
           figure
-            img(src='@/assets/curso/tema14/img2.jpg', style="width: 850px" ,alt='').m-auto
+            img(src='@/assets/curso/tema14/img2.jpg', style="width: 850px" ,alt='Imagen que muestra soluciones SIEM disponibles en el mercado, se pueden apreciar logotipos de diferentes marcas que hacen alusión a estas soluciones.').m-auto
 
 </template>
 

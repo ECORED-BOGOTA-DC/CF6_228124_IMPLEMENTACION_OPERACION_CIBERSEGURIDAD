@@ -161,7 +161,7 @@
       .row.justify-content-center
         .col-auto
           figure
-            img(src='@/assets/curso/tema6/img10.jpg', style="width: 1200px" ,alt='').m-auto
+            img(src='@/assets/curso/tema6/img10.jpg', style="width: 1200px" ,alt='Imagen que muestra la arquitectura adaptativa por niveles de seguridad para soluciones EDR en 4 fases: 1. Análisis de riesgos y endeudamiento 2. Prevención 3. Detección y respuesta 4. Informes e Integración').m-auto
 
 </template>
 

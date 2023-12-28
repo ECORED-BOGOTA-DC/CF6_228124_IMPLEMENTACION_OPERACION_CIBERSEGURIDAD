@@ -47,7 +47,7 @@
       .row.justify-content-center
         .col-auto
           figure
-            img(src='@/assets/curso/tema4/img2.svg', style="width: 900px" ,alt='').m-auto
+            img(src='@/assets/curso/tema4/img2.svg', style="width: 900px" ,alt='Imagen que muestra las características y funcionalidades de los dispositivos UTM/XTM.').m-auto
 
 </template>
 

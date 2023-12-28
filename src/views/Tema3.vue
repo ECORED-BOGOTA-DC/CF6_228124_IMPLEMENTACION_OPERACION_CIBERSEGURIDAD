@@ -92,17 +92,17 @@
       .row.justify-content-center
         .col-auto
           figure
-            img(src='@/assets/curso/tema3/img1.svg', style="width: 850px" ,alt='').m-auto
+            img(src='@/assets/curso/tema3/img1.svg', style="width: 850px" ,alt='Imagen que contiene un esquema de la implementación de un IDS, el cual consta de router, firewall, alertas, IDS, switch y activos de información.').m-auto
     ModalA(:abrir-modal.sync="modal2")
       .row.justify-content-center
         .col-auto
           figure
-            img(src='@/assets/curso/tema3/img2.svg', style="width: 850px" ,alt='').m-auto
+            img(src='@/assets/curso/tema3/img2.svg', style="width: 850px" ,alt='Imagen que relaciona de manera gráfica las diferencias entre NIDS y HIDS. ').m-auto
     ModalA(:abrir-modal.sync="modal3")
       .row.justify-content-center
         .col-auto
           figure
-            img(src='@/assets/curso/tema3/img3.svg', style="width: 850px" ,alt='').m-auto
+            img(src='@/assets/curso/tema3/img3.svg', style="width: 850px" ,alt='Imagen que contiene un esquema de implementación de un IPS, el cual consta de router, firewall, IPS, IDS, switch y activos de información.').m-auto
     p(data-aos="fade-right") En la actualidad existen muchas soluciones de tipo UTM, que incorporan estos 2 tipos de soluciones dentro de sus herramientas, permitiendo extender la cobertura y control del tráfico que circula en nuestra red.
     Separador
     #t_3_1

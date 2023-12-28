@@ -36,7 +36,7 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.mb-0 #[b Figura 1.] Pasos de un control de gestión de acceso
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img1.svg', style="width: 950px" ,alt='').m-auto
+          img(src='@/assets/curso/tema1/img1.svg', style="width: 950px" ,alt='Imagen que muestra el diagrama de pasos de un control de gestión acceso y se describen en la parte inferior.').m-auto
           figcaption.mt-5 Nota. Adaptado de ICHI.PRO - Introducción a la gestión de identidades y accesos.
     .cajon.color-primario.p-4.mb-5(data-aos="fade-down")
       p.mb-0 Durante el acceso a los sistemas de información se deben llevar a cabo una serie de pasos técnicos, los cuales deben  valorarse para gestionar una adecuada autorización y acceso a los recursos requeridos; a saber:
